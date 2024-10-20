@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GreenLife Products</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>Our Collection of Indoor Plants</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="cart.html">Cart (<span id="cart-count">0</span>)</a>
+    </nav>
+  </header>
+
+  <div class="product-list">
+    <div class="product">
+      <img src="plant1.jpg" alt="Peace Lily">
+      <p>Peace Lily - $12</p>
+      <button onclick="addToCart('Peace Lily', 12)">Add to Cart</button>
+    </div>
+    <div class="product">
+      <img src="plant2.jpg" alt="Fiddle Leaf Fig">
+      <p>Fiddle Leaf Fig - $22</p>
+      <button onclick="addToCart('Fiddle Leaf Fig', 22)">Add to Cart</button>
+    </div>
+  </div>
+
+  <script src="scripts.js"></script>
+</body>
+</html>
